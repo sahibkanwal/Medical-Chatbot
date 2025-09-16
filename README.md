@@ -1,32 +1,30 @@
-# 🏥 Medical Chatbot with LLMs, LangChain, Pinecone, Flask & AWS
+# Medical Chatbot with LangChain, Pinecone, Flask, and AWS
 
-## 📖 Overview
-This project is a medical **question-answering chatbot** built with **Large Language Models (LLMs)**, **LangChain**, and **Pinecone** for semantic search.  
-It is deployed using **Flask** and can be hosted on **AWS** for scalability.  
-The chatbot delivers **fast, context-aware answers** to health-related queries.  
+## Overview
+This project is a medical question-answering chatbot that uses LangChain for orchestration and Pinecone for semantic search. It is built with Flask and can be deployed on AWS for scalability. The chatbot provides context-aware answers to health-related queries.
 
-⚠️ **Disclaimer**: For **educational purposes only** — not a substitute for professional medical advice.
+**Note:** This project is for educational purposes only and is not a substitute for professional medical advice.
 
 ---
 
-## 🚀 Features
-- 🤖 **LLM-powered medical Q&A** using OpenAI & Hugging Face APIs  
-- 🧠 **LangChain** for prompt orchestration & retrieval  
-- 📊 **Pinecone** for vector database & semantic search  
-- 🌐 **Flask backend** with REST API support  
-- ☁️ **AWS deployment-ready**  
+## Features
+- LLM-powered medical Q&A with retrieval
+- LangChain for managing prompts and workflows
+- Pinecone for vector storage and similarity search
+- Flask backend with REST API
+- AWS deployment ready
 
 ---
 
-## 🛠 Tech Stack
-- **Languages & Frameworks**: Python, Flask  
-- **AI/ML**: LangChain, OpenAI GPT-4o, Hugging Face embeddings  
-- **Vector DB**: Pinecone  
-- **Infrastructure**: AWS, dotenv  
+## Tech Stack
+- **Backend:** Python, Flask  
+- **AI/ML:** LangChain, Hugging Face embeddings  
+- **Database:** Pinecone  
+- **Deployment:** AWS, dotenv  
 
 ---
 
-## ⚙️ Quick Start
+## Quick Start
 ```bash
 # Clone the repository
 git clone https://github.com/yourusername/medical-chatbot.git
@@ -39,16 +37,16 @@ pip install -r requirements.txt
 python app.py
 ```
 
-The chatbot will be available at 👉 **http://127.0.0.1:5000/**  
+The app will run locally at: **http://127.0.0.1:5000/**
 
 ---
 
-## 📌 Example
+## Example
 **Q:** What are the symptoms of pneumonia?  
-**A:** Common symptoms include cough, fever, and difficulty breathing. Please consult a doctor for medical advice.  
+**A:** Common symptoms include cough, fever, and difficulty breathing. Please consult a doctor for medical advice.
 
 ---
 
-## 🙌 Acknowledgments
-Built with **LangChain**, **Pinecone**, **Flask**, and **AWS**.  
-Developed by *Sahib Kanwal*.  
+## Acknowledgments
+Built with LangChain, Pinecone, Flask, and AWS.  
+Developed by Sahib Kanwal.  
